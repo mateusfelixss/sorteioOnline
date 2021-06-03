@@ -12,7 +12,7 @@ function sorteio(){
     //const resultado = "Número: 9 - Roberta Moreira";
     //const parabens = "Parabéns"
     document.getElementById("resultado").innerHTML = sort;
-    document.getElementById("parabens").innerHTML = parabens;
+    //document.getElementById("parabens").innerHTML = parabens;
 
 
     document.getElementById("botao").innerHTML = "Sortear Novamente";
@@ -23,4 +23,3 @@ function iniciarSorteio(){
     document.getElementById("botao").innerHTML = "Sorteando...",
     setTimeout(sorteio, 2000);
 }
-//    background-image: linear-gradient( blueviolet , violet);
