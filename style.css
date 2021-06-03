@@ -1,0 +1,51 @@
+body{    
+    background-image: url(acai.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.main{
+    text-align: center;
+    background-image: linear-gradient( rgb(138,43,226, .3) , rgb(238,130,238, .3));
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main h1, h2{
+    font-weight: bolder;
+    color: white;
+}
+.main p{
+    color: white;
+    font-size: 20px;
+}
+
+.main button{
+    transition: background 1s;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-color: blueviolet;
+}
+  
+  button:hover,
+  button:focus {
+    background: violet;
+}
+
+.divImg img{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;  
+    margin-top: -15%;  
+}
+
+.divResultado{
+    text-align: center;
+}
