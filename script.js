@@ -9,9 +9,9 @@ function sorteio(){
         sort = Math.floor(Math.random() * Math.floor(max));
        
     }
-    const resultado = "Número: 9 - Roberta Moreira";
-    const parabens = "Parabéns Roberta. Você acaba de ganhar 01 açaí no valor de R$ 16,50! Nossa equipe entrar em contato."
-    document.getElementById("resultado").innerHTML = resultado;
+    //const resultado = "Número: 9 - Roberta Moreira";
+    //const parabens = "Parabéns"
+    document.getElementById("resultado").innerHTML = sort;
     document.getElementById("parabens").innerHTML = parabens;
 
 
